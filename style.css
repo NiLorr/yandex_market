@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+body {
+    font-family:Helvetica,Arial,sans-serif;
+    font-size: 100%;
+    background: rgb(255, 255, 255);
+  }
+.cityBox{
+  font-family:Helvetica,Arial,sans-serif;
+  font-size: 14px;
+
+}
+.logo{
+    
+  width: 203px;
+  height: 73px;
+  white-space: nowrap;
+}
+.wrap
+{
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.headerCont{
+  display: flex;
+  flex-direction: column;
+}
+.navList{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  list-style: none;
+}
+
+.navItem a{
+  color: black;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+
+.bottomSide{
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+.otherLinks{
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.citySelector{
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+.topSide{
+  display: flex;
+  align-items: center;
+}
+.serchBox{
+  -webkit-text-stroke-width: 1%;
+  -webkit-text-stroke-color: black;
+  position: relative;
+  width: 500px;
+}
+.serchBox input{
+  border: 2px #fce000;
+  border-radius: 7px;
+  outline-style: solid;
+  outline-color: #fce000;
+  font-family:  inherit;
+  border: none;
+  display: block;
+  padding: 0 36px 0 16px;
+  font-size: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  height: 40px;
+}
+.submit{
+  position: absolute;
+  right: 0;
+  top: -1px;
+  flex-shrink: 0;
+  border: none;
+  outline: none;
+  background-color: #fce000;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+  padding: 12px 16px;
+  box-sizing: border-box;
+  height: 100%;
+  height: auto;
+  border-radius: 0 7px 7px 0;
+  font-weight: 500;
+  font-family:Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+.userAcc{
+  text-align: center;
+  line-height: 15px;
+  font-size: 14px;
+  display: flex;
+  gap: 30px;
+}
+.userAccText{
+  transition: color .3s;
+  color: #666;
+  letter-spacing: .25px;
+  font-family:Helvetica,Arial,sans-serif;
+}
+.entry{
+  height: 44px;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 0 15px;
+  color: black; 
+  background-color: #eee;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 7px;
+}
+.catalog{
+  justify-content: center;
+  align-items: center;
+  display: inline-flex;
+  display: flex;
+  font-size: 16px;
+  gap: 12px;
+  padding: 12px 14px;
+  height: 44px;
+  background-color: #fce000;
+  font-family:Helvetica, Arial, sans-serif;
+  border-radius: 7px;
+  font-weight: 500;
+  outline-color: #fce000;
+  border: none;
+  margin-right: 20px;
+}
