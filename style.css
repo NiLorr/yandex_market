@@ -152,3 +152,19 @@ header {
 	border: none;
 	margin-right: 20px;
 }
+.recommendation {
+	display: flex;
+	justify-content: center;
+	font-family: Helvetica, Arial, sans-serif;
+}
+.recommendationRoll {
+	width: 162px;
+	height: 36px;
+	background-color: #42413e;
+	border-radius: 11px;
+	transition: transform 3 s;
+	position: relative;
+}
+.forYou {
+	color: #fff;
+}
